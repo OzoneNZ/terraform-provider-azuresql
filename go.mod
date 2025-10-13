@@ -1,6 +1,6 @@
 module github.com/kristofferlind/terraform-provider-azuresql
 
-go 1.18
+go 1.23.0
 
 // non-terraform dependencies (created by running go mod init and go mod tidy in ./internal/manager)
 require github.com/microsoft/go-mssqldb v1.7.2
